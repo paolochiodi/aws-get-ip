@@ -18,7 +18,7 @@ function awsGetIp (opts) {
   this.ec2 = new aws.EC2(opts)
 }
 
-finder.prototype.byTags = function (query, cb) {
+awsGetIp.prototype.byTags = function (query, cb) {
   const filters = Object.keys(query).map(function (key) {
     return {
       Name: "tag:" + key,
