@@ -1,0 +1,16 @@
+{
+  "name": "aws-get-ip",
+  "version": "1.0.0",
+  "description": "Get ip addresses of ec2 instances",
+  "main": "aws-get-ip.js",
+  "scripts": {},
+  "author": "Paolo Chiodi (https://github.com/paolochiodi)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paolochiodi/zipkin-simple"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.7.1"
+  }
+}
