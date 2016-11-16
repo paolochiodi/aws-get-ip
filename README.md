@@ -37,7 +37,7 @@ You should pass in the aws region and credentials (unless using a IAM role)
 
 ## Methods
 
-### byTags
+### byTags(tags, callback)
 
 List all the private ips of running instances with the specified tags
 
