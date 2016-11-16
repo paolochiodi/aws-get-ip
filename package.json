@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paolochiodi/zipkin-simple"
+    "url": "git+https://github.com/paolochiodi/aws-get-ip"
   },
   "dependencies": {
     "aws-sdk": "^2.7.1"
