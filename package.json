@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/paolochiodi/aws-get-ip"
   },
+  "keywords": [
+    "aws",
+    "ip",
+    "tags"
+  ]
   "dependencies": {
     "aws-sdk": "^2.7.1"
   }
