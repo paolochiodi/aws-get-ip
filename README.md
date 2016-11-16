@@ -4,7 +4,7 @@
 - __Sponsored by:__ [nearForm][Sponsor]
 - __Node:__ 4.x, 6.x
 
-Return the private ip of a list of EC2 instanstes using aws-sdk
+Return the private ip of a list of EC2 instanstes using [aws-sdk](https://github.com/aws/aws-sdk-js)
 
 ## Install
 ```
@@ -28,7 +28,9 @@ getIp.byTags({tag: 'value'}, function (err, ips) {
 
 ## Options
 
-The contructor accepts the same options of aws-sdk. You sould pass in the aws region and credentials (unless using a IAM role)
+The constructor accepts the same options of aws-sdk.
+
+You should pass in the aws region and credentials (unless using a IAM role)
 
 ## Methods
 
